@@ -13,6 +13,7 @@ services:
     volumes:
       - wordpress:/var/www/html
 
+
   db:
     image: mysql:8.0
     restart: always
